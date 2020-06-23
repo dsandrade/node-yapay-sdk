@@ -1,44 +1,17 @@
 {
-  "_from": "yapay-node@^0.1.0",
-  "_id": "yapay-node@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-HSLIC9GgScmEkMRaj+jClALXbNtI2JL50m4eQ90wFU2O6qAHujPMPNymlk1Z/L+PsIPc5kFoHHqxfb06GKBmxA==",
-  "_location": "/yapay-node",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "yapay-node@^0.1.0",
     "name": "yapay-node",
-    "escapedName": "yapay-node",
-    "rawSpec": "^0.1.0",
-    "saveSpec": null,
-    "fetchSpec": "^0.1.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/yapay-node/-/yapay-node-0.1.0.tgz",
-  "_shasum": "dbb28d29182c240602410334cd339031cd64232f",
-  "_spec": "yapay-node@^0.1.0",
-  "_where": "/Users/dandrade/code/pedfarma/api",
-  "author": {
-    "name": "Willian Custódio"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "payment": "^2.3.0",
-    "request": "^2.87.0",
-    "xml2json": "^0.11.2"
-  },
-  "deprecated": false,
-  "description": "Biblioteca Node.js para integração com intermediador de pagamentos Yapay",
-  "homepage": "https://github.com/wcustodio/yapay-node",
-  "keywords": [
-    "yapay",
-    "node"
-  ],
-  "main": "index.js",
-  "name": "yapay-node",
-  "version": "0.1.0"
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "Biblioteca Node.js para integração com intermediador de pagamentos Yapay",
+    "keywords": [
+        "yapay",
+        "node"
+    ],
+    "homepage": "https://github.com/dsandrade/node-yapay-node",
+    "author": "Daniel Andrade",
+    "dependencies": {
+        "payment": "^2.3.0",
+        "request": "^2.87.0",
+        "xml2json": "^0.11.2"
+    }
 }
